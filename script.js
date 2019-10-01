@@ -11,4 +11,14 @@ function func1(){
         a1.value = "";
     }
 }
+function func2(){
+    var a2 = document.getElementById("a2");
+    if (a2.value == "689"){
+        f3.style.color = 'black';
+    } else if (a2.value == "000"){
+        f3.style.color = 'black';
+    } else {
+        a2.value = "";
+    }
+}
 
