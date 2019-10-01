@@ -3,7 +3,8 @@ var a1;
 
 function func1(){
     a1 = document.getElementById("antwort1");
-    if (a1.equals("689")){
+    var lsg = "689";
+    if (a1.equals(lsg)){
         frage2.style.color = 'black';
     }
 }
