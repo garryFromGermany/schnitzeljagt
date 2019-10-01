@@ -1,11 +1,11 @@
-var f2 = document.getElementById('frage2');
-var f3 = document.getElementById('frage3');
+var f2 = document.getElementById('f2');
+var f3 = document.getElementById('f3');
 
 function func1(){
-    var a1 = document.getElementById("antwort1");
-    if (a1.value == "hi"){
+    var a1 = document.getElementById("a1");
+    if (a1.value == "689"){
         f2.style.color = 'black';
     } else {
-        f3.style.color = 'black';
+        a1.value = "";
     }
 }
