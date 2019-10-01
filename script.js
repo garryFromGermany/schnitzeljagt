@@ -4,7 +4,7 @@ var a1;
 function func1(){
     a1 = document.getElementById("antwort1");
     var lsg = "689";
-    if (a1.equals(lsg)){
+    if (2 > 1){
         frage2.style.color = 'black';
     }
 }
