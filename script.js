@@ -8,4 +8,13 @@ function func1(){
     } else {
         a1.value = "";
     }
+function func2(){
+    var a2 = document.getElementById("a2");
+    if (a2.value == "feiner Sand"){
+        f3.style.color = 'black';
+    } else if (a2.value == "feiner sand") {
+        f3.style.color = 'black';
+    } else {
+        a2.value = "";
+    }   
 }
