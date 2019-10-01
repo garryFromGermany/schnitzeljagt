@@ -4,8 +4,8 @@ var a1;
 var lsg = "689";
 
 function func1(){
-    a1 = document.getElementById("antwort1").value;
-    if (a1.equals(lsg)){
+    a1 = document.getElementById("antwort1");
+    if (a1.value.equals(lsg)){
         f2.style.color = 'black';
     } else {
         f3.style.color = 'black';
