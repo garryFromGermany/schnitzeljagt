@@ -1,9 +1,9 @@
-var frage2 = document.getElementById('frage2');
-var antwort;
+var f2 = document.getElementById('frage2');
+var a1;
 
 function func1(){
-    antwort = document.getElementById("antwort1");
-    if (2 > 1){
+    a1 = document.getElementById("antwort1");
+    if (a1 == "689"){
         frage2.style.color = 'black';
     }
 }
