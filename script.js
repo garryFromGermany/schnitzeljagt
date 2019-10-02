@@ -86,7 +86,7 @@ function func8(){
     if (a8.value == "feiner Sand"){
         f9.style.color = 'black';
     } else if (a8.value == "Passwort"){
-        f3.style.color = 'white';
+        f2.style.color = 'white';
         a2.value = "";
         f9.style.color = 'black';
     } else {
