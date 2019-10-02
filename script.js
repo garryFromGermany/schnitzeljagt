@@ -9,6 +9,9 @@ var f9 = document.getElementById('f9');
 var f10 = document.getElementById('f10');
 var f11 = document.getElementById('f11');
 
+var a2 = document.getElementById("a2");
+
+
 function func1(){
     var a1 = document.getElementById("a1");
     if (a1.value == "689"){
@@ -20,7 +23,6 @@ function func1(){
     }
 }
 function func2(){
-    var a2 = document.getElementById("a2");
     if (a2.value == "feiner Sand"){
         f3.style.color = 'black';
     } else if (a2.value == "feiner sand"){
@@ -83,7 +85,9 @@ function func8(){
     var a8 = document.getElementById("a8");
     if (a8.value == "feiner Sand"){
         f9.style.color = 'black';
-    } else if (a8.value == "feiner sand"){
+    } else if (a8.value == "Passwort"){
+        f3.style.color = 'white';
+        a2.value = "";
         f9.style.color = 'black';
     } else {
         a8.value = "";
